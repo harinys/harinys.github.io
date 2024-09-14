@@ -1,0 +1,121 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 2rem; /* Adjust the size as per your need */
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h1 {
+    box-shadow: 4px 4px 6px 2px blue; /* Make shadow subtler */
+    text-shadow: 1px 1px 2px black;
+    width: auto; /* Better scaling for heading */
+}
+
+#nav-ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;   
+}
+
+cite > a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul li {
+    margin: 0 10px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main > article {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+body> footer {
+    background-color: blue;
+    display: flex;
+}
+
+img {
+    border-radius: 100%;
+}
+
+footer {
+    color: white;
+}
+
+#footer-ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#footer-ul > div > li > a {
+    padding: 10px;
+    color: white;
+}
+
+form {
+    text-align: center;
+}
+
+#side-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+#sign-up-title {
+    display: center;
+    color: blue;
+}
+
+#sign-up {
+    display: center;
+    color: blue;
+}
